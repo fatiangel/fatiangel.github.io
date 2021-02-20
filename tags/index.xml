@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 我的Git blog</title>
+    <link>https://fatiangel.github.io/tags/</link>
+    <description>Recent content in Tags on 我的Git blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 20 Feb 2021 10:00:00 +0800</lastBuildDate><atom:link href="https://fatiangel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML</title>
+      <link>https://fatiangel.github.io/tags/html/</link>
+      <pubDate>Sat, 20 Feb 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://fatiangel.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://fatiangel.github.io/tags/markdown/</link>
+      <pubDate>Sat, 20 Feb 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://fatiangel.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>https://fatiangel.github.io/tags/new/</link>
+      <pubDate>Sat, 20 Feb 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://fatiangel.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://fatiangel.github.io/tags/python/</link>
+      <pubDate>Sat, 20 Feb 2021 10:00:00 +0800</pubDate>
+      
+      <guid>https://fatiangel.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>https://fatiangel.github.io/tags/photos/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://fatiangel.github.io/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://fatiangel.github.io/tags/game/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0800</pubDate>
+      
+      <guid>https://fatiangel.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
