@@ -151,10 +151,18 @@ a.source{
 }
 
 @media (max-width: 360px) {
-  .app-header h1 {
-    font-size: 18px;
+  .app-header h1, header h1, .card, .result, .formula {
+    font-size: 16px !important;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    white-space: normal;
+  }
+  .card, .result, .formula {
+    padding: 8px !important;
   }
 }
+
 
 /* 修正手機版標題溢出 */
 .app-header {
