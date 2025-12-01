@@ -149,3 +149,21 @@ a.source{
   .grid{ grid-template-columns:1fr; }
   header h1{ font-size:1.4rem; }
 }
+
+@media (max-width: 360px) {
+  .app-header h1 {
+    font-size: 18px;
+  }
+}
+
+/* 修正手機版標題溢出 */
+.app-header {
+  flex-wrap: wrap;       /* 允許換行 */
+}
+
+.app-header h1 {
+  word-break: break-word; /* 標題需要時可折行 */
+  max-width: 100%;        /* 防止寬度超出容器 */
+}
+
+
