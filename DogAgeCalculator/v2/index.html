@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>妙麗(柯基犬)歲數計算機</title>
+  <link rel="stylesheet" href="style.css">
+  <!--  放入這三行開始 -->
+  <link rel="icon" type="image/png" href="./icon.png">
+  <link rel="apple-touch-icon" href="./icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icon.png">
+  <!--  放入這三行結束 -->
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="title">
+    <header>
+      <h1 id="title">妙麗(柯基犬)歲數計算機</h1>
+      <p class="subtitle">
+        公式來源說明: 依據 Wang et al., <em>Cell Systems</em> (2020)，以自然對數轉換推算狗齡與人類年齡的生理等效關係。<br>
+        <small style="color:var(--muted)">（原始論文 DOI: 10.1016/j.cels.2020.06.006）</small>
+      </p>
+    </header>
+
+    <section class="grid" aria-label="輸入與結果">
+      <div>
+        <div class="input-row" role="region" aria-labelledby="input-title">
+          <h2 id="input-title" style="margin:0 0 8px 0;font-size:1rem">輸入妙麗出生年月日：</h2>
+
+          <label for="birthdate">選擇出生日期</label>
+          <input id="birthdate" type="date" />
+
+          <div class="controls">
+            <button id="calcBtn" class="btn-calc" type="button">開始計算</button>
+            <button id="clearBtn" class="btn-clear" type="button">清除</button>
+          </div>
+
+        </div>
+
+        <div style="margin-top:14px;">
+          <div class="result" role="status" aria-live="polite">
+            <p class="big" id="dogAgeText">狗狗年齡: —</p>
+            <p class="big" id="humanAgeText">換算後人類年齡: —</p>
+            <p class="small" id="noteText">請輸入出生年月日，然後按「開始計算」。</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="result" aria-labelledby="formulaTitle">
+          <h3 id="formulaTitle" style="margin-top:0">使用公式與來源</h3>
+
+          <div class="formula" id="formulaBox">
+            <div>公式（Wang et al., Cell Systems, 2020）：</div>
+            <div style="margin-top:8px;font-weight:700;">Human age = 16 × ln(dog age) + 31</div>
+
+            <div style="margin-top:8px;" id="formulaWarning">
+              說明：此公式以狗狗年齡（年）計算；若小於 1 年，ln(狗齡) 會是負數，反映幼年到青年期的快速生理變化。
+            </div>
+
+            <div style="margin-top:12px;color:var(--muted);font-size:0.9rem">
+              來源：Wang T., Ma J., Hogan A.N., 等，2020.  
+              <em>Quantitative translation of dog-to-human aging by conserved remodeling of the DNA methylome</em>,  
+              <strong>Cell Systems</strong>.  
+              DOI: <a class="source" href="https://doi.org/10.1016/j.cels.2020.06.006" target="_blank">10.1016/j.cels.2020.06.006</a>
+            </div>
+          </div>
+
+          <footer class="note">
+            提示：此結果為基於群體生理變化模型的推估值，僅供參考；實際差異依品種、健康狀況而不同。
+          </footer>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
